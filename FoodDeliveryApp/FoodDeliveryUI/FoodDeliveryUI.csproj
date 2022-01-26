@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{01B77EA4-6BE4-4FE5-BE01-F79FB9492B1E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FoodDeliveryUI</RootNamespace>
+    <AssemblyName>FoodDeliveryUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.113.1\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FirstCustomUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FirstCustomUserControl.Designer.cs">
+      <DependentUpon>FirstCustomUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GusarPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GusarPage.Designer.cs">
+      <DependentUpon>GusarPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KorzoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KorzoForm.Designer.cs">
+      <DependentUpon>KorzoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginUser.Designer.cs">
+      <DependentUpon>LoginUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistracijaUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistracijaUser.Designer.cs">
+      <DependentUpon>RegistracijaUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GusarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GusarForm.Designer.cs">
+      <DependentUpon>GusarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KorzoPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KorzoPage.Designer.cs">
+      <DependentUpon>KorzoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaurantLogin.Designer.cs">
+      <DependentUpon>RestaurantLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestoranDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoranDashBoard.Designer.cs">
+      <DependentUpon>RestoranDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondCustomUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SecondCustomUserControl.Designer.cs">
+      <DependentUpon>SecondCustomUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FirstCustomUserControl.resx">
+      <DependentUpon>FirstCustomUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GusarPage.resx">
+      <DependentUpon>GusarPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KorzoForm.resx">
+      <DependentUpon>KorzoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginUser.resx">
+      <DependentUpon>LoginUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegistracijaUser.resx">
+      <DependentUpon>RegistracijaUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GusarForm.resx">
+      <DependentUpon>GusarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KorzoPage.resx">
+      <DependentUpon>KorzoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantLogin.resx">
+      <DependentUpon>RestaurantLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoranDashBoard.resx">
+      <DependentUpon>RestoranDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondCustomUserControl.resx">
+      <DependentUpon>SecondCustomUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="FoodDeliveryDB.db" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FoodDeliveryLibrary\FoodDeliveryLibrary.csproj">
+      <Project>{D4AC2157-F1A8-4FC7-8BFD-96EFFEDC15FA}</Project>
+      <Name>FoodDeliveryLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

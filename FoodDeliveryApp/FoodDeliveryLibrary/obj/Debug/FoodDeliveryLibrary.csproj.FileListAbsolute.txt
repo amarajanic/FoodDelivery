@@ -1,0 +1,13 @@
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\FoodDeliveryLibrary.dll
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\FoodDeliveryLibrary.pdb
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\obj\Debug\FoodDeliveryLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\obj\Debug\FoodDeliveryLibrary.dll
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\obj\Debug\FoodDeliveryLibrary.pdb
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\FoodDeliveryLibrary.dll.config
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\Dapper.dll
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\System.Data.SQLite.dll
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\Dapper.xml
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\System.Data.SQLite.xml
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\obj\Debug\FoodDeliveryLibrary.csproj.CopyComplete
+C:\Users\Pc\source\repos\FoodDeliveryApp\FoodDeliveryLibrary\obj\Debug\FoodDeliveryLibrary.csproj.AssemblyReference.cache
